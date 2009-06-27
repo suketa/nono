@@ -1,0 +1,38 @@
+* What is nono?
+
+nono is the soft try to solve the puzzle called picture logic.
+The features of nono are following:
+
+  + nono may solve the picture logic.
+  + nono may not solve the picture logic.
+  + nono think that the picture logic was solved, but
+    nono displays incorrect answer and nono is not correct.
+  + nono may solve the picutre logic which has multi color.
+  + If you use gnono, fnono, tnono or wnono, then you play
+    to solve picture logic.
+  + nono is written by Ruby.
+
+* How to get it?
+
+You can download the latest version from following site.
+
+  http://suke.cocolog-nifty.com/blog/nono.html
+
+* INSTALL
+
+Read INSTALL.en
+
+* License
+
+Identical with Ruby's License. Masaki.Suketa keeps the author's rights.
+
+* Bug Reports
+
+If you have any comments, please e-mail to masaki.suketa@nifty.ne.jp.
+
+* Special Thanks
+
+If there is no following site(only Japanese), then nono would not be born.
+
+  http://www.pro.or.jp/~fuji/java/puzzle/nonogram/knowhow.html
+

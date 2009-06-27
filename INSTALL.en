@@ -1,0 +1,182 @@
+* INSTALL
+
+run following:
+  ruby setup.rb config
+  ruby setup.rb setup
+  ruby setup.rb install
+
+* USAGE
+Run 'guinono.rb'. Or,
+
+If you run
+
+  nono.rb file
+
+then, nono.rb solve the puzzle written in the file.
+
+If you run
+
+  nono.rb -s file
+
+then, nono.rb displays progress until solved.
+
+The nono.rb make the answer HTML file in the current directory. 
+The name of the HTML file is file.ans.html.
+
+For example, if you run
+
+  nono.rb puzzle/p01.txt
+
+then, nono.rb make p01.txt.ans.html in the current directory.
+
+
+* How to make the puzzle
+The horizon numbers begin with 'horizon' and the vertical numbers
+begin with 'vertical'. The numbers are separated by "," each other.
+
+For example, the puzzle is following:
+                 1                    1  
+              3  1 10  1  1  1  1  3  1  3
+        3
+     1  1
+        3
+        1
+        1
+        1
+        1
+     1  3
+  1  1  1
+        8
+
+then, the puzzle file is the following:
+
+  horizon
+  3
+  1,1
+  3
+  1
+  1
+  1
+  1
+  1,3
+  1,1,1
+  8
+  vertical
+  3
+  1,1
+  10
+  1
+  1
+  1
+  1
+  3
+  1,1
+  3
+
+The answer of puzzle/p03.txt is following:
+
+--- puzzle/p03.txt ---
+  solved
+
+                1             1  
+              3 110 1 1 1 1 3 1 3
+        3    XXXXXX              
+     1  1    XX  XX              
+        3    XXXXXX              
+        1        XX              
+        1        XX              
+        1        XX              
+        1        XX              
+     1  3        XX        XXXXXX
+  1  1  1        XX        XX  XX
+        8        XXXXXXXXXXXXXXXX
+
+
+
+* How to make the multi colored puzzle.
+If the puzzle is the multi colored puzzle, then
+you specify the color by one letter.
+
+  color
+  r=#FF0000
+  b=#0000FF
+  c=#cc6600
+
+In the above example, r means red, b means blue, and c means
+#cc6600 (brown).
+
+The numbers and the colors are specified by a number and 
+a letter.
+For example, the color is red and the length is 3, then
+you specify
+  3r
+
+For more detail, see puzzle/p04.txt.
+
+* guinono.rb
+executes gnono.rb or wnono.rb or tnono.rb or fnono.rb
+coressponding to available extension GUI library.
+
+* gnono.rb
+
+gnono.rb requires Ruby/GTK2.
+
+For more detail about Ruby/GTK2, see
+
+  http://ruby-gnome2.sourceforge.jp/
+
+gnono.rb works in the following environment.
+
+  Ruby 1.8.2(2005-02-17) [i686-linux]
+  Ruby/GTK 0.11.0
+  GTK+ 2.2.4
+
+
+
+* wnono.rb
+
+wnono.rb requires VisualuRuby.
+
+For more detail about VisualuRuby, see
+
+  http://www.osk.3web.ne.jp/~nyasu/vruby/vrproject-e.html
+
+wnno.rb works in the following environment:
+
+  Ruby  1.8.2(2005-03-02) [i386-mingw32]
+     or     
+  Ruby  1.8.2(2005-03-02) [i386-cygwin]
+  swin  050117
+  vruby 050206 
+
+
+* tnono.rb
+tnono.rb requires Ruby/Tk.
+
+tnono.rb works in the following environment:
+  Ruby 1.8.2(2005-03-09) [i686-linux]
+  Tk 8.0.5
+
+
+* fnono.rb
+
+fnono.rb requires FXRuby 1.2.X or FXRuby 1.4.X.
+
+For more detail about FXRuby, see
+
+  http://www.fxruby.org/   
+
+fnono.rb works in the following environment.
+  Ruby 1.8.3(2005-09-21) [i386-mingw32]
+  FXRuby 1.2.6
+  FOX 1.2.16
+    or
+  FXRuby 1.4.2
+  FOX 1.4.17
+
+
+* wnono.exe (only included nono-X.X.X.zip)
+
+wnono.exe is made from wnono.rb using by RubyScript2Exe.
+wnono.exe works in Windows box without Ruby.
+

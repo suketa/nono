@@ -1,0 +1,25 @@
+* more clever selecting strategy to assert colored cell
+* installer
+* correct English
+* font selection in tnono
+
+- font selection in fnono
+- font selection in gnono
+- try FXRuby 1.4.X
+- README.en
+- INSTALL.en
+- font selection in wnono
+- refactoring GUI. creating common GUI module for gnono and wnono
+- split creator of HTML file from Plate class.
+- output result HTML file
+- change format of puzzle file
+- standard directory composition
+- Plate.load
+- const.rb -> config.rb
+- default is mono.
+- support Ruby 1.8 (should not use min_by ...) 
+- quiet mode
+- optional argument
+- README.ja
+- color logic
+- tnono resize bug fix
