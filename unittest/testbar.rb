@@ -196,7 +196,7 @@ class TestBar < Test::Unit::TestCase
 
   end
 
-  def test_trim_fixed
+  def test_trim_fixed2
     cells = []
     10.times do |i|
       cells.push(Nono::Cell.new(i, 0, ['XX', ' ']))

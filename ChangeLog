@@ -1,8 +1,12 @@
-2009-06-27 09:42:13  Masaki Suketa  <suke@tpx31.localdomain>
+2015-02-16 13:16:25  Masaki Suketa  <masaki.suketa@nifty.ne.jp>
+
+	* add gemspec file.
+
+2009-06-27 09:42:13  Masaki Suketa  <masaki.suketa@nifty.ne.jp>
 
 	* README.en -> README, INSTALL.en -> INSTALL
 
-2009-06-21 04:56:17  Masaki Suketa  <suke@tpx31.localdomain>
+2009-06-21 04:56:17  Masaki Suketa  <masaki.suketa@nifty.ne.jp>
 	* add setup.rb
 
 	* add bin/guinono.rb

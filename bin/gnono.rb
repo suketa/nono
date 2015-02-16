@@ -1,4 +1,4 @@
-#! /usr/local/trunk/bin/ruby
+#! /usr/bin/env ruby
 require 'gtk2'
 require 'nono/gtk/vnono'
 

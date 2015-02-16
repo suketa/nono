@@ -1,4 +1,4 @@
-#! /usr/local/trunk/bin/ruby
+#! /usr/bin/env ruby
 require 'optparse'
 require 'nono/loader'
 require 'nono/plate'

@@ -1,4 +1,4 @@
-#! /usr/local/trunk/bin/ruby
+#! /usr/bin/env ruby
 
 # GUI Selector for Xnono 
 require 'rbconfig'

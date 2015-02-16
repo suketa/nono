@@ -1,4 +1,4 @@
-#! /usr/local/trunk/bin/ruby
+#! /usr/bin/env ruby
 begin
   require 'fox14'
 rescue LoadError
